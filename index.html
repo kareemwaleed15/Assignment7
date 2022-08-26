@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light position-absolute w-100 py-4"
+      style="border-bottom: solid 1px rgba(255, 255, 255, 0.339); z-index: 9999"
+    >
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"
+          ><img src="images/logo-white.png" class="logo1" alt="" srcset="" />
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-bars text-white fa-lg"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link pl-3 pr-3" href="#Home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-3" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-3" href="#Team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-3" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-3" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-3" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-3 pr-3 pb-0" href="#Contact">Contact</a>
+            </li>
+            <li class="nav-item navIconP mt-1 ml-5">
+              <a href=""
+                ><i
+                  class="fab fa-twitter text-white mr-3 navIcon"
+                  style="font-size: 14px"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fab fa-facebook text-white mr-3 navIcon"
+                  style="font-size: 14px"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fab fa-instagram text-white navIcon"
+                  style="font-size: 14px"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /NavBar -->
+
+    <!-- Home -->
+    <section id="Home" class="homeBg">
+      <div>
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="images/slideshow-1.jpg"
+                style="height: 100vh"
+                alt="First slide"
+              />
+              
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/slideshow-2.jpg"
+                style="height: 100vh"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/slideshow-3.jpg"
+                style="height: 100vh"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleFade"
+            style="top: 45%; position: absolute; left: 0px; height: fit-content"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            style="position: absolute; top: 52%; height: fit-content; left: 0px"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+iii        </div>
+        <div class="carousel-item">
+uuu          </div>
+        <div class="carousel-item">
+hhh          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> -->
+      </div>
+    </section>
+    <!-- /home -->
+
+    <!-- About Us -->
+    <section id="About" class="py-5">
+      <div class="container">
+        <div class="aboutHover">
+          <h2 class="h2 text-center" data-bigletter="A">About Us</h2>
+          <hr />
+          <div class="d-flex justify-content-center">
+            <p class="aboutP mb-5 text-center w-75">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <p style="font-size: 14px" class="text-muted">
+              Pellentesque vel elit egestas, pretium est ac, convallis orci.
+              Vivamus sem nisl, tristique vel fringilla vitae, efficitur at
+              eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat
+              quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac,
+              viverra felis. <br /><br />
+              Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna
+              posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum.
+              Fusce tincidunt diam at bibendum porta. <br /><br />
+              Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna.
+              Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <div>
+              <div style="width: 80%">
+                <span style="font-size: 14px; font-weight: 600; color: #444444"
+                  >Branding</span
+                ><span class="float-right text-muted">80%</span>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  height: 4px;
+                  background-color: #eee;
+                  border-radius: 2px;
+                "
+                class="my-2"
+              >
+                <div
+                  class="h-100"
+                  style="
+                    background-color: #f25454;
+                    border-radius: 2px;
+                    width: 80%;
+                  "
+                ></div>
+              </div>
+            </div>
+            <div>
+              <div style="width: 95%">
+                <span style="font-size: 14px; font-weight: 600; color: #444444"
+                  >Web Design</span
+                ><span class="float-right text-muted">95%</span>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  height: 4px;
+                  background-color: #eee;
+                  border-radius: 2px;
+                "
+                class="my-2"
+              >
+                <div
+                  class="h-100"
+                  style="
+                    background-color: #f25454;
+                    border-radius: 2px;
+                    width: 95%;
+                  "
+                ></div>
+              </div>
+            </div>
+            <div>
+              <div style="width: 85%">
+                <span style="font-size: 14px; font-weight: 600; color: #444444"
+                  >Graphic Design </span
+                ><span class="float-right text-muted">85%</span>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  height: 4px;
+                  background-color: #eee;
+                  border-radius: 2px;
+                "
+                class="my-2"
+              >
+                <div
+                  class="h-100"
+                  style="
+                    background-color: #f25454;
+                    border-radius: 2px;
+                    width: 85%;
+                  "
+                ></div>
+              </div>
+            </div>
+            <div>
+              <div style="width: 70%">
+                <span style="font-size: 14px; font-weight: 600; color: #444444"
+                  >Development</span
+                ><span class="float-right text-muted">70%</span>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  height: 4px;
+                  background-color: #eee;
+                  border-radius: 2px;
+                "
+                class="my-2"
+              >
+                <div
+                  class="h-100"
+                  style="
+                    background-color: #f25454;
+                    border-radius: 2px;
+                    width: 70%;
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About Us -->
+
+    <!-- Our Team -->
+    <section id="Team" class="py-5 my-5">
+      <div class="container">
+        <div class="aboutHover">
+          <h2 class="h2 text-center" data-bigletter="O">Our Team</h2>
+          <hr />
+          <div class="d-flex justify-content-center">
+            <p class="aboutP mb-5 text-center w-75">
+              Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+              urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+              aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-lg-3">
+            <div class="teamimg">
+              <div class="w-100; position-relative overflow-hidden">
+                <img src="images/member-1.jpg" alt="" srcset="" class="w-100" />
+                <div
+                  style="
+                    background-color: rgba(242, 84, 84, 0.85);
+                    height: 100%;
+                    position: absolute;
+                    width: 100%;
+                    top: 10px;
+                  "
+                  class="teamlayer"
+                >
+                  <div
+                    class="justify-content-center align-items-center d-flex h-100"
+                  >
+                    <a href=""
+                      ><i class="fab fa-twitter mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-facebook-f mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-dribbble mr-3 ml-2 text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <h5
+                style="font-size: 16px; font-weight: 600"
+                class="text-center mt-3 teamHover"
+              >
+                Michael Broad
+              </h5>
+              <p style="font-size: 14px" class="text-muted text-center">
+                Web Designer
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="teamimg">
+              <div class="w-100; position-relative overflow-hidden">
+                <img src="images/member-2.jpg" alt="" srcset="" class="w-100" />
+                <div
+                  style="
+                    background-color: rgba(242, 84, 84, 0.85);
+                    height: 100%;
+                    position: absolute;
+                    width: 100%;
+                    top: 10px;
+                  "
+                  class="teamlayer"
+                >
+                  <div
+                    class="justify-content-center align-items-center d-flex h-100"
+                  >
+                    <a href=""
+                      ><i class="fab fa-twitter mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-facebook-f mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-dribbble mr-3 ml-2 text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <h5
+                style="font-size: 16px; font-weight: 600"
+                class="text-center mt-3 teamHover"
+              >
+                Michael Broad
+              </h5>
+              <p style="font-size: 14px" class="text-muted text-center">
+                Web Designer
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="teamimg">
+              <div class="w-100; position-relative overflow-hidden">
+                <img src="images/member-3.jpg" alt="" srcset="" class="w-100" />
+                <div
+                  style="
+                    background-color: rgba(242, 84, 84, 0.85);
+                    height: 100%;
+                    position: absolute;
+                    width: 100%;
+                    top: 10px;
+                  "
+                  class="teamlayer"
+                >
+                  <div
+                    class="justify-content-center align-items-center d-flex h-100"
+                  >
+                    <a href=""
+                      ><i class="fab fa-twitter mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-facebook-f mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-dribbble mr-3 ml-2 text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <h5
+                style="font-size: 16px; font-weight: 600"
+                class="text-center mt-3 teamHover"
+              >
+                Michael Broad
+              </h5>
+              <p style="font-size: 14px" class="text-muted text-center">
+                Web Designer
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="teamimg">
+              <div class="w-100; position-relative overflow-hidden">
+                <img src="images/member-4.jpg" alt="" srcset="" class="w-100" />
+                <div
+                  style="
+                    background-color: rgba(242, 84, 84, 0.85);
+                    height: 100%;
+                    position: absolute;
+                    width: 100%;
+                    top: 10px;
+                  "
+                  class="teamlayer"
+                >
+                  <div
+                    class="justify-content-center align-items-center d-flex h-100"
+                  >
+                    <a href=""
+                      ><i class="fab fa-twitter mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-facebook-f mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in mr-3 ml-2 text-white"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fab fa-dribbble mr-3 ml-2 text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <h5
+                style="font-size: 16px; font-weight: 600"
+                class="text-center mt-3 teamHover"
+              >
+                Michael Broad
+              </h5>
+              <p style="font-size: 14px" class="text-muted text-center">
+                Web Designer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-9 col-md-12 teaml">
+            <h3 class="mb-4">Do you have any ideas?</h3>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="d-flex justify-content-center">
+              <a
+                href=""
+                style="
+                  background-color: #f25454;
+                  padding: 18px 30px;
+                  color: white;
+                  text-decoration: none;
+                "
+                class="rounded button1"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Our Team -->
+    <!-- Services -->
+    <section id="Services" class="bg-light py-5">
+      <div class="container">
+        <div class="aboutHover">
+          <h2 class="h2 text-center" data-bigletter="S">Services</h2>
+          <hr />
+          <div class="d-flex justify-content-center">
+            <p class="aboutP mb-5 text-center w-75">
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-laptop"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 3px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Responsive Layout
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-pen-ruler"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Modern Design
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="far fa-flag"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Font Awesome Icons
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-diamond"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Ajax Portfolio
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-gear"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Color Options
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-headphones"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Audio Support
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-file-pen"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Well Documented
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-video-camera"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Background Videos
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="servicesP">
+                <i
+                  class="fas fa-sliders"
+                  style="
+                    color: #f25454;
+                    font-size: 32px !important;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <h3 style="font-size: 18px" class="stitle d-inline">
+                  Intro Slider
+                </h3>
+                <p class="ml-5 text-muted mt-3" style="font-size: 14px">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Services -->
+
+    <!-- Client Reviews -->
+    <section class="" id="Blog">
+      <div class="container py-5 my-5">
+        <div class="aboutHover">
+          <h2 class="h2 text-center" data-bigletter="C">Client Reviews</h2>
+          <hr />
+          <div class="d-flex justify-content-center">
+            <p class="aboutP mb-5 text-center w-75">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+          <div class="row py-5">
+            <div class="col-sm-12">
+              <div class="owl-carousel owl-theme">
+                <div class="item px-4">
+                  <div class="text-center">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        src="images/client-1.png"
+                        class="w-25 rounded-circle"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <h3 style="font-weight: 600; font-size: 16px">
+                      Jane Doris
+                    </h3>
+                    <p class="text-muted">From Acme</p>
+                    <p class="mt-5 text-muted" style="font-size: 25px">
+                      Vestibulum lectus massa, volutpat ut tristique nec,
+                      volutpat in turpis. In vehicula tempus odio. Nullam enim
+                      ligula.
+                    </p>
+                  </div>
+                </div>
+                <div class="item px-4">
+                  <div class="text-center">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        src="images/client-1.png"
+                        class="w-25 rounded-circle"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <h3 style="font-weight: 600; font-size: 16px">
+                      Jane Doris
+                    </h3>
+                    <p class="text-muted">From Acme</p>
+                    <p class="mt-5 text-muted" style="font-size: 25px">
+                      Vestibulum lectus massa, volutpat ut tristique nec,
+                      volutpat in turpis. In vehicula tempus odio. Nullam enim
+                      ligula.
+                    </p>
+                  </div>
+                </div>
+                <div class="item px-4">
+                  <div class="text-center">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        src="images/client-2.png"
+                        class="w-25 rounded-circle"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <h3 style="font-weight: 600; font-size: 16px">
+                      Jane Doris
+                    </h3>
+                    <p class="text-muted">From Acme</p>
+                    <p class="mt-5 text-muted" style="font-size: 25px">
+                      Vestibulum lectus massa, volutpat ut tristique nec,
+                      volutpat in turpis. In vehicula tempus odio. Nullam enim
+                      ligula.
+                    </p>
+                  </div>
+                </div>
+                <div class="item px-4">
+                  <div class="text-center">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        src="images/client-3.png"
+                        class="w-25 rounded-circle"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <h3 style="font-weight: 600; font-size: 16px">
+                      Jane Doris
+                    </h3>
+                    <p class="text-muted">From Acme</p>
+                    <p class="mt-5 text-muted" style="font-size: 25px">
+                      Vestibulum lectus massa, volutpat ut tristique nec,
+                      volutpat in turpis. In vehicula tempus odio. Nullam enim
+                      ligula.
+                    </p>
+                  </div>
+                </div>
+                <div class="item px-4">
+                  <div class="text-center">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        src="images/client-4.png"
+                        class="w-25 rounded-circle"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <h3 style="font-weight: 600; font-size: 16px">
+                      Jane Doris
+                    </h3>
+                    <p class="text-muted">From Acme</p>
+                    <p class="mt-5 text-muted" style="font-size: 25px">
+                      Vestibulum lectus massa, volutpat ut tristique nec,
+                      volutpat in turpis. In vehicula tempus odio. Nullam enim
+                      ligula.
+                    </p>
+                  </div>
+                </div>
+                <div class="item px-4">
+                  <div class="text-center">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        src="images/client-5.png"
+                        class="w-25 rounded-circle"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <h3 style="font-weight: 600; font-size: 16px">
+                      Jane Doris
+                    </h3>
+                    <p class="text-muted">From Acme</p>
+                    <p class="mt-5 text-muted" style="font-size: 25px">
+                      Vestibulum lectus massa, volutpat ut tristique nec,
+                      volutpat in turpis. In vehicula tempus odio. Nullam enim
+                      ligula.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Client Reviews -->
+
+    <!-- Get In Touch -->
+    <section id="Contact" class="py-5">
+      <div class="container">
+        <div class="aboutHover">
+          <h2 class="h2 text-center" data-bigletter="G">Get In Touch</h2>
+          <hr />
+          <div class="d-flex justify-content-center">
+            <p class="aboutP mb-5 text-center w-75">
+              Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo
+              nec pretium. Ut nibh elit, fermentum vel hendrerit vel, dictum nec
+              velit. Morbi volutpat suscipit.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <h3>Get answers and advices from professional consultants.</h3>
+
+            <div class="mt-5 chover border-bottom pb-3">
+              <span
+                class="far fa-map float-left mr-3"
+                style="font-size: 40px; color: #f25454"
+              ></span>
+              <span class="cicon font-weight-bold">Address</span>
+              <p class="ml-5 text-muted" style="font-size: 14px">
+                1650 Lombard Street, San Francisco, CA 94123
+              </p>
+            </div>
+            <div class="mt-5 chover border-bottom pb-3">
+              <span
+                class="fas fa-mobile float-left mr-3"
+                style="font-size: 40px; color: #f25454"
+              ></span>
+              <span class="cicon font-weight-bold">Phone</span>
+              <p class="ml-5 text-muted" style="font-size: 14px">
+                +1 (415) 876-3250 / +1 (415) 876-3251
+              </p>
+            </div>
+            <div class="mt-5 chover border-bottom pb-3">
+              <span
+                class="far fa-envelope float-left mr-3"
+                style="font-size: 40px; color: #f25454"
+              ></span>
+              <p class="cicon font-weight-bold mb-0">Say Hello</p>
+              <a
+                href=""
+                class="a1 text-decoration-none text-muted"
+                style="font-size: 14px"
+                >[email protected]</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="">
+              <input
+                style="
+                  padding: 14px 18px;
+                  color: #a6a6a6;
+                  border-radius: 3px;
+                  border: 2px solid #eee;
+                "
+                type="text "
+                class="mb-4 w-100"
+                placeholder="Name"
+              />
+              <input
+                style="
+                  padding: 14px 18px;
+                  color: #a6a6a6;
+                  border-radius: 3px;
+                  border: 2px solid #eee;
+                "
+                type="email "
+                class="mb-4 w-100"
+                placeholder="E-mail"
+              />
+              <input
+                style="
+                  padding: 14px 18px;
+                  color: #a6a6a6;
+                  border-radius: 3px;
+                  border: 2px solid #eee;
+                "
+                type="text "
+                class="w-100 mb-4"
+                placeholder="Phone"
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="4"
+                style="
+                  padding: 14px 18px;
+                  color: #a6a6a6;
+                  border-radius: 3px;
+                  border: 2px solid #eee;
+                "
+                type="text "
+                class="w-100"
+                placeholder="Message"
+              ></textarea>
+              <button
+                type="submit"
+                class="text-white button1 border-0 rounded mt-4"
+                style="
+                  background-color: #f25454;
+                  padding: 12px 30px;
+                  color: white;
+                  text-decoration: none;
+                "
+              >
+                <i class="fas fa-paper-plane" style="font-size: 14px"></i
+                ><span
+                  class="ml-2"
+                  style="
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: white;
+                    text-decoration: none;
+                  "
+                  >Send Message</span
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Get In Touch -->
+    <!-- footer -->
+    <footer class="py-5" style="background-color: #222">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 text-white-50" style="font-size: 14px">
+            <h5 class="text-white mb-3">Contact Info</h5>
+            <p>
+              1650 Lombard Street,<br />
+              San Francisco, CA 94123
+            </p>
+            <p class="mb-2">+1 (415) 876-3250</p>
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >[email protected]</a
+            >
+          </div>
+          <div class="col-lg-3 text-white-50" style="font-size: 14px">
+            <h5 class="text-white mb-3">Useful Links</h5>
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Support
+            </a>
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Privacy Policy
+            </a>
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Terms & Conditions
+            </a>
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Affiliate Program</a
+            >
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none">Careers</a>
+          </div>
+          <div class="col-lg-3 text-white-50" style="font-size: 14px">
+            <h5 class="text-white mb-3">Recent Posts</h5>
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Aerial View of Village</a
+            >
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Lighted Concrete City</a
+            >
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >The Little Ghost</a
+            >
+            <br />
+            <a href="" class="a1 text-white-50 text-decoration-none"
+              >Royal Oats ft. Waldo
+            </a>
+          </div>
+          <div class="col-lg-3 text-white-50" style="font-size: 14px">
+            <h5 class="text-white mb-3">Popular Tags</h5>
+            <div>
+              <span style="margin-right: 8px;  display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                  "
+                  >HTML5</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px !important;
+                  "
+                  >CSS3</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="border: 1px solid #b0b0b0; padding: 2px 10px"
+                  >jquery</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                  "
+                  >UX / UI</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                  "
+                  >Web</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                  "
+                  >Graphic</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                  "
+                  >Design</a
+                ></span
+              >
+              <span style="margin-right: 8px; display: block; float: left; margin-bottom: 10px"
+                ><a
+                  href=""
+                  class="rounded a1 text-decoration-none text-white-50 ficon2"
+                  style="
+                    border: 1px solid #b0b0b0;
+                    padding: 2px 10px;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                  "
+                  >Development</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="py-4" style="background: #1a1a1a">
+      <div class="container">
+        <a href="" class="text-white text-decoration-none ml-2 mr-3"
+          ><i class="fab fa-twitter a1"></i>
+        </a>
+        <a href="" class="text-white text-decoration-none ml-2 mr-3"
+          ><i class="fab fa-facebook-f a1"></i>
+        </a>
+        <a href="" class="text-white text-decoration-none ml-2 mr-3"
+          ><i class="fab fa-instagram a1"></i>
+        </a>
+        <a href="" class="text-white text-decoration-none ml-2 mr-3"
+          ><i class="fab fa-dribbble a1"></i>
+        </a>
+        <a href="" class="text-white text-decoration-none ml-2 mr-3"
+          ><i class="fab fa-pinterest a1"></i>
+        </a>
+        <span
+          class="text-white float-right text-white-50"
+          style="font-size: 14px"
+          >Copyright © 2020
+          <span class="text-white font-weight-bold"
+            ><a href="" class="a1 text-decoration-none text-white"
+              >Angora</a
+            ></span
+          ></span
+        >
+      </div>
+    </div>
+    <!-- /footer -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

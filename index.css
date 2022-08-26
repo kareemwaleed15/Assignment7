@@ -1,0 +1,148 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Poppins", sans-serif;
+}
+p,
+span {
+  font-family: "Open Sans", sans-serif;
+}
+.nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #fff !important;
+  transition: 0.1s;
+}
+.nav-link:hover {
+  color: #f25454 !important;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #f25454 !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 20px !important;
+}
+.fa-bars {
+  transition: 0.4s;
+}
+.fa-bars:hover {
+  color: #f25454 !important;
+}
+.navIcon {
+  transition: 0.1s;
+}
+.navIcon:hover {
+  color: #f25454 !important;
+}
+@media screen and (max-width: 991.9px) {
+  .navbar-nav {
+    background-color: rgb(255, 255, 255) !important;
+    margin-top: 20px;
+  }
+  .nav-link {
+    color: black !important;
+    margin-top: 15px;
+  }
+  .navbar {
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+  .navIconP {
+    visibility: hidden;
+  }
+}
+.h2 {
+  position: relative;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 38px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.h2::after {
+  content: attr(data-bigletter);
+  position: absolute;
+  font-size: 2em;
+  opacity: 0.06;
+  top: -0.45em;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-transform: uppercase;
+}
+hr {
+  transition: all 0.3s;
+  width: 40px;
+  border-color: black;
+}
+.aboutP {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 70px;
+}
+.aboutHover:hover hr {
+  width: 60px;
+}
+.teamlayer {
+  transition: 0.4s;
+  opacity: 0;
+}
+.teamimg:hover .teamlayer {
+  top: 0px !important;
+  opacity: 1;
+}
+.teamHover {
+  transition: 0.4s;
+}
+.teamimg:hover .teamHover {
+  color: #f25454 !important;
+}
+@media screen and (max-width: 992px) {
+  .teaml {
+    display: flex;
+    justify-content: center;
+  }
+}
+.button1 {
+  transition: 0.4s;
+}
+.button1:hover {
+  background-color: #f38383 !important;
+}
+footer {
+  background-image: url(images/dotted-map.png);
+  background-size: contain;
+}
+.stitle {
+  transition: 0.4s;
+  font-weight: 600;
+}
+.servicesP:hover .stitle {
+  color: #f25454;
+}
+.cicon {
+  transition: 0.4s;
+  font-size: 18px;
+  font-weight: 600;
+}
+.chover:hover .cicon {
+  color: #f25454;
+}
+.a1 {
+  transition: 0.5s;
+}
+.a1:hover {
+  color: #f25454 !important;
+}
+.ficon2{
+  transition: 0.5s;
+}
+.ficon2:hover{
+  border-color: #f25454 !important;
+}
